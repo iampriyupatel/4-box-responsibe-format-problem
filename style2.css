@@ -1,0 +1,67 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name1{
+    background-color: rgba(128, 128, 128, 0.977);
+    float: left;
+    width: 25%;
+}
+.name2{
+    background-color: rgba(128, 128, 128, 0.792);
+    float: left;
+    width: 25%;
+}
+.name3{
+    background-color: rgba(128, 128, 128, 0.575);
+    float: left;
+    width: 25%;
+}
+.name4{
+    background-color: rgba(128, 128, 128, 0.331);
+    float: left;
+    width: 25%;
+}
+.mydiv{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border: 10px solid black;
+}
+p{
+    font-size: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+h1{
+    padding: 10px;
+    color:rgba(0, 248, 252, 0.811);
+    text-shadow:  2px 5px 8px black;
+    text-transform: capitalize;
+}
+.css1{
+    background-color: gray;
+    text-transform: uppercase;
+    border: 2px dotted black;
+    border-radius: 5px;
+    font-style: italic;
+    text-shadow:  1px 5px 10px black;
+}
+@media all and (max-width:800px) and (min-width:449px){
+.name1,.name2{
+ float: left;
+ width: 50%;
+}
+.name3,.name4{
+    float:left;
+    width: 50%;
+}
+    
+}
+@media all and (max-width:450px) and (min-width:100px){
+    .name1,.name2,.name3,.name4{
+     float: none;
+     width: 100%;
+}
+        
+}
+
